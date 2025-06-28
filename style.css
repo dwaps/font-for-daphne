@@ -1,0 +1,16 @@
+@font-face {
+  font-family: ColeCarreira;
+  src: url("./ColeCarreira.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: ColeCarreira, sans-serif;
+  color: #000;
+}
+
+#editor-container {
+  height: 50vh;
+  font-family: ColeCarreira, sans-serif;
+  font-size: 1.5rem;
+}
