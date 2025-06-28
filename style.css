@@ -3,10 +3,15 @@
   src: url("./ColeCarreira.ttf");
 }
 
+@font-face {
+  font-family: OpenSans;
+  src: url("./OpenSans.ttf");
+}
+
 body {
   margin: 0;
-  font-family: ColeCarreira, sans-serif;
   color: #000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 h1 {
@@ -20,10 +25,27 @@ h1 {
   flex-wrap: wrap;
 }
 
-#editor-container {
-  font-family: ColeCarreira, sans-serif;
+.font-selector {
+  text-align: center;
+  margin: 30px 0;
+}
+
+body .editor-container {
+  font-family: Calibri;
   font-size: 1.5rem;
   margin: 0 auto;
   max-width: 800px;
   height: 50vh;
+}
+
+.ql-editor {
+  text-align: center;
+}
+
+.ql-editor::before {
+  text-align: center;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }

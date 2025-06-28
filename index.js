@@ -1,4 +1,4 @@
-const quill = new Quill("#editor-container", {
+const quill = new Quill(".editor-container", {
   theme: "snow",
   placeholder: "Écris ce que tu veux 😘",
   modules: {
@@ -12,4 +12,13 @@ const quill = new Quill("#editor-container", {
       ["clean"],
     ],
   },
+});
+
+quill.format("align", "center");
+
+const editor = document.querySelector(".ql-editor");
+const selector = document.getElementById("fontSelector");
+
+selector.addEventListener("change", () => {
+  editor.style.fontFamily = selector.value;
 });
