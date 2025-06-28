@@ -19,12 +19,6 @@ h1 {
   text-align: center;
 }
 
-.ql-toolbar {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .font-selector {
   text-align: center;
   margin: 30px 0;
@@ -38,7 +32,20 @@ body .editor-container {
   height: 50vh;
 }
 
+.ql-container {
+  border: none !important;
+}
+
+.ql-toolbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: none !important;
+  border-bottom: none !important;
+}
+
 .ql-editor {
+  border: none !important;
   text-align: center;
 }
 
