@@ -9,8 +9,21 @@ body {
   color: #000;
 }
 
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.ql-toolbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 #editor-container {
-  height: 50vh;
   font-family: ColeCarreira, sans-serif;
   font-size: 1.5rem;
+  margin: 0 auto;
+  max-width: 800px;
+  height: 50vh;
 }
